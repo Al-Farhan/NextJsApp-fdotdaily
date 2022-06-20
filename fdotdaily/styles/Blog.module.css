@@ -1,0 +1,41 @@
+.container {
+    padding: 0 1.5rem;
+    max-width: 65%;
+    margin: auto;
+  }
+
+.main {
+    min-height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 3rem;
+  }
+
+.blogItemh3{
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+  color: white;
+  background: black;
+  padding: 7px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0 1.5rem;
+    max-width: 90%;
+    margin: auto;
+  }
+}
