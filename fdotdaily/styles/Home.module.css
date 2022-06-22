@@ -175,7 +175,7 @@
 
 @media only screen and (max-width: 600px) {
   .mainnav ul li{
-    margin: 0 8px;
+    margin: 0 9px;
     list-style: none;
     font-weight: bold;
   }

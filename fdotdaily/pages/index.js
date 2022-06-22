@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link';
-import Image from 'next/image';
 
 
 export default function Home() {
@@ -21,8 +20,8 @@ export default function Home() {
         
 
         <div className={styles.myWrap}>
-          <Image className={styles.myImg} src="/homeImg2.jpg" alt="" width={237} height={158}/>
-          {/* <img className={styles.myImg} src="/homeImg2.jpg" alt="fdotRead" width={237} height={158} /> */}
+          {/* <Image className={styles.myImg} src="/homeImg2.jpg" alt="" width={237} height={158}/> */}
+          <img className={styles.myImg} src="/homeImg2.jpg" alt="fdotRead" width={237} height={158} />
         </div>
 
         <h1 className={styles.title}>
